@@ -6,15 +6,25 @@
     <title>HTML Tables and Forms</title>
     <style>
       table, th, td {
-          border: 1px solid gray;
+        color: red;
+        background-color: rgb(6, 4, 4);
+          border: 1px solid rgb(14, 158, 65);
           padding-top: 10px;
           border-collapse: collapse;
       }
       td {
         text-align: center;
       }
-      div {
-        margin-top: 10px;
+      div, form, div  {
+        color: red;
+        margin-top: 5px;
+        padding-top: 10px;
+      }
+      tbody, tr, td{
+        color: rgb(175, 176, 183);
+      }
+      button{
+        color: blue;
       }
     </style>
   </head>
@@ -24,13 +34,13 @@
       <table>
         <thead>
          <tr>
-           <th>soda Name</th>
-           <th>total servings</th>
-           <th>serving size</th>
-           <th>calories per serving</th>
-           <th>carbs per serving</th>
-           <th>sugars per serving</th>
-           <th>sodium per serving</th>
+           <th>Soda Name</th>
+           <th>Total Servings</th>
+           <th>Serving Size</th>
+           <th>Calories Per Serving</th>
+           <th>Carbs Per Serving</th>
+           <th>Sugars Per Serving</th>
+           <th>Sodium Per Serving</th>
          </tr>
         </thead>
         <tbody>
@@ -55,7 +65,7 @@
          <tr>
           <td>Coca cola Zero</td>
           <td>1</td>
-          <td>0 </td>
+          <td>12</td>
           <td>0 </td>
           <td>0 </td>
           <td>0 </td>
@@ -84,31 +94,31 @@
 
       <div>
         <form>
-         <label for="total servings">total servings</label><br/>
-         <input type="text" id="total servings" name="total servings"/><br />
+         <label for="Total servings">Total Servings</label><br/>
+         <input type="text" id="Total servings" name="Total servings"/><br />
         </div>
         <div>
-         <label for="serving size">serving size</label><br />
+         <label for="serving size">Serving Size</label><br />
          <input type="text" id="serving size" name="serving size"/><br />
          </div>
          <div>
-         <label for="calories per serving">calories per serving</label><br />
+         <label for="calories per serving">Calories Per Serving</label><br />
          <input type="text" id="calories perserving" name="calories perserving"/><br />
          </div>
          <div>
-         <label for="carbs per serving">carbs per serving</label><br />
+         <label for="carbs per serving">Carbs Per Serving</label><br />
          <input type="text" id="carbs pererving" name="carbs perserving"/><br />
          </div>
          <div>
-         <label for="sugars per serving">sugars per serving</label><br />
+         <label for="sugars per serving">Sugars Per Serving</label><br />
          <input type="text" id="sugars pererving" name="sugars perserving"/><br />
          </div>
          <div>
-         <label for="sodium per serving">sodium per serving</label><br />
+         <label for="sodium per serving">Sodium Per Serving</label><br />
          <input type="text" id="sodium perserving" name="sodium perserving"/><br />
          </div>
          <div>
-         <button type="submit">submit</button>
+         <button type="submit">Submit</button>
          </div>
         </form>
       </div>
